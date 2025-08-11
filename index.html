@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="Stylesheet" href="mediaqueries.css">
+
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo" onclick="location.href='https://leetcode.com/u/Ayushman_28/'">Ayushman</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Ayushman</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="Assets/ayushman.png" alt="Ayushman pfp">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Ayushman</h1>
+            <p class="section__text__p2">Full-Stack Developer</p>
+            <div class="btncontainer">
+                <button class="btn btn-color-2" onclick="window.open('Assets/resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./Assets/linkedin.png" alt="My linkedin porfile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/ayushman-037379264/'">
+                <img src="./Assets/github.png" alt="My Github porfile" class="icon"
+                    onclick="location.href='https://github.com/tiwariaayu'">
+            </div>
+        </div>
+        </section>
+
+        <section id="Projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Assets/logo.png" alt="project" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">KRISHAK</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/tiwariaayu/Krishak'">
+                            Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://krishak.shop/'">
+                            Live Demo</button>
+                    </div>
+                </div>
+                 <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Assets/caro3.jpg" alt="project" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">PHARMACY+EMERGECY-SERVICE</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/tiwariaayu/Pharmacy-'">
+                            Github</button>
+                        <button class="btn btn-color-2 project-btn">
+                            Not Deployed</button>
+                    </div>
+                </div>
+                 <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://file.aiquickdraw.com/imgcompressed/img/compressed_054c46e219b98b566cd4cb22af8c348e.webp" alt="project" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">EXPENSE-TRACKER VIA CHARTS</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/tiwariaayu/Expense-Tracker'">
+                            Github</button>
+                        <button class="btn btn-color-2 project-btn">
+                            Not Deployed</button>
+                    </div>
+                </div>
+                <br>
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Assets/p1.png" alt="project" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Watchmate</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/tiwariaayu/Watchmate'">
+                            Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://tiwariaayu.github.io/Watchmate/'">
+                            Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Assets/p2.webp" alt="project" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">NEWS</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/tiwariaayu/NEWS_'">
+                            Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://tiwariaayu.github.io/NEWS_/'">
+                            Live Demo</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#project'" />
+
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about.jpg" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p class="para">1 years <br />Full-Stack Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p class="para">BCA Bachelors Degree<br /> Bachelor of Computer Applications</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        A dynamic Full Stack Web Developer with expertise in HTML, CSS, and JavaScript, skilled in
+                        crafting modern and functional projects like WATCHMATE (an IMDb clone), NEWS FETCHER (a
+                        responsive news aggregator), and a sleek To-Do List application. Proficient in system design,
+                        DBMS, and OOPS, currently diving into the MERN stack to expand technical expertise. Known for
+                        creating aesthetically pleasing, user-friendly interfaces and delivering polished, responsive
+                        designs.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title"> Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="/Assets/html.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/Assets/css.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/Assets/js.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Mid</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/Assets/bootstrap.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>BootStrap</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/Assets/tailwind.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Tailwind</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/Assets/github.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Github</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="/Assets/sql.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/Assets/react1.jpg" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>REACT</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/Assets/mDb.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>MONGODB</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="/Assets/express-js.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Express JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#project'" />
+    </section>
+    
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="/Assets/email.png" alt="Email icon " class="icon contact-icon email-icon">
+                <p><a href="mailto:tiwariayushman847@gmail.com">tiwariayushman847@gmail.com</a></p>
+            </div>
+
+            <div class="contact-info-container">
+                <img src="/Assets/linkedin.png" alt="LinkedIn icon " class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/ayushman-037379264/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            
+            </ul>
+        </div>
+        </nav>
+        <p>Copyright &#169; 2025 Ayushman , All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
